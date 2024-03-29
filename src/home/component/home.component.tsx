@@ -2,16 +2,19 @@
 
 import MenuComponent from "../../layouts/menu/component/menu.component";
 import HeaderComponent from "../../layouts/header/components/header.component";
-import { HomeContent, HomePage } from "../common/assets/home.style";
-import ListProductComponent from "../../products/components/listproduct.component";
+import {
+  ContentBody,
+  HomeContent,
+  HomePage,
+} from "../common/assets/home.style";
 
-const HomeComponent = () => {
+const HomeComponent = ({ children }: any) => {
   return (
     <HomePage>
       <MenuComponent />
       <HomeContent>
         <HeaderComponent />
-        <ListProductComponent />
+        <ContentBody>{children}</ContentBody>
       </HomeContent>
     </HomePage>
   );

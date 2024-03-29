@@ -1,6 +1,6 @@
 /** @format */
 
-import { Box, Input } from "@mui/material";
+import { Box } from "@mui/material";
 import SearchIcon from "@mui/icons-material/Search";
 import { useState } from "react";
 import {

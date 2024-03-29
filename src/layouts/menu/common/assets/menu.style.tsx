@@ -12,7 +12,7 @@ import {
 export const LeftMenu = styled(Box)({
   displa: "flex",
   flexDirection: "column",
-  width: 250,
+  width: 300,
   height: "100vh",
   borderRight: "1px dashed rgba(0, 0, 0, 0.2)",
   overflow: "auto",
